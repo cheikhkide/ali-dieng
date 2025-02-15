@@ -1,181 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  
-    <style>
-        #bg-image{
-            background-image:url(coffee-171653_1280.jpg) ;
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 100vh;
-        }
-        
-    </style>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEN CAFÉ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href=".//img4/nescafé2.jpg" type="image/x-icon ">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-dark  fixed-top  ">
-        <div class="container">
-            <a href="index.html" class="navbar-brand text-uppercase text-light fw-bold">Sen 
-                <span class="bg-warning bg-gradient p-1 rounded-3 text-light">café</span>
+  <nav class="navbar navbar-expand-md navbar-light bg-dark  fixed-top  ">
+    <div class="container">
+      <a href="sen café.html" class="navbar-brand text-uppercase text-light fw-bold"> Sen
+        <span class=" bg-gradient p-1 rounded-3 text-warning">café <svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <path style="fill:#b27214" d="M73.862 8.713h364.279V503.29H73.862z" />
+            <path style="fill:#f7b239" d="M118.181 53.032h275.652V458.97H118.181z" />
+            <path style="fill:#fff"
+              d="M176.924 247.287c0 41.704 33.807 75.511 75.511 75.511s75.511-33.808 75.511-75.511H176.924z" />
+            <path style="fill:#ccc"
+              d="M216.423 247.287h-39.498c0 41.703 33.808 75.511 75.511 75.511 6.836 0 13.451-.924 19.749-2.627-32.121-8.683-55.762-38.016-55.762-72.884z" />
+            <path style="fill:#995c0d"
+              d="M262.202 228.7a8.713 8.713 0 0 1-8.713-8.713c0-15.941 3.429-24.343 6.454-31.754 2.77-6.787 5.163-12.649 5.163-25.17a8.713 8.713 0 0 1 17.426 0c0 15.941-3.429 24.343-6.454 31.754-2.77 6.787-5.163 12.649-5.163 25.17a8.713 8.713 0 0 1-8.713 8.713zM231.053 228.7a8.713 8.713 0 0 1-8.713-8.713c0-15.941 3.429-24.343 6.454-31.754 2.77-6.787 5.163-12.649 5.163-25.17a8.713 8.713 0 0 1 17.426 0c0 15.941-3.429 24.343-6.454 31.754-2.77 6.787-5.163 12.649-5.163 25.17a8.713 8.713 0 0 1-8.713 8.713z" />
+            <path style="fill:#333"
+              d="M438.142 0H73.858a8.713 8.713 0 0 0-8.713 8.713v494.574A8.713 8.713 0 0 0 73.858 512h364.283a8.713 8.713 0 0 0 8.713-8.713V8.713A8.712 8.712 0 0 0 438.142 0zm-47.929 44.319H121.786L94.892 17.426h322.214l-26.893 26.893zm-5.104 17.426v388.51h-258.22V61.745h258.22zm-275.645-5.104v398.718l-26.893 26.893V29.747l26.893 26.894zm12.322 411.04h268.428l26.894 26.893H94.892l26.894-26.893zm280.749-12.322V56.641l26.894-26.894v452.505l-26.894-26.893z" />
+            <path style="fill:#333"
+              d="M252.437 331.511c23.065 0 43.987-9.325 59.213-24.396h14.348c21.254 0 38.546-17.291 38.546-38.546 0-16.539-13.456-29.995-29.995-29.995H176.927a8.713 8.713 0 0 0-8.713 8.713c-.001 46.441 37.781 84.224 84.223 84.224zm94.68-62.941c0 11.645-9.474 21.12-21.12 21.12h-.834c5.886-10.058 9.761-21.428 11.033-33.569 6.152.812 10.921 6.078 10.921 12.449zM318.67 256c-4.282 32.732-32.353 58.086-66.233 58.086S190.485 288.732 186.204 256H318.67zM317.493 340.224H187.381a8.713 8.713 0 0 0 0 17.426h130.112a8.713 8.713 0 0 0 0-17.426z" />
+          </svg></span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item active"><a class="nav-link" href="#" style="color: white;">Accueil</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-light fw-bold dropdown-toggle" href="#Service" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Service
             </a>
-    
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav ">
-                    <li class="nav-item active"><a class="nav-link"
-                         href="#" style="color: white;">Accueil</a></li>
-                     <li class=" nav-item"><a class="nav-link" href="#Service" style="color: white;">Service</a></li>
-                     <li class="nav-item"><a class="nav-link" href="#A propos" style="color: white;">A propos</a></li>
-                     <li class="nav-item"><a class="nav-link" href="#Contact" style="color: white;">Contact</a></li>
-                </ul>
-            </div>
-       </div>
-    </nav>
-       
 
-     
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./img1/photo1.html">café noir</a></li>
+              <li><a class="dropdown-item" href="./img2/photo2.html">café au lait</a></li>
+              <li><a class="dropdown-item" href="./img3/photo3.html">cappuccino</a></li>
+              <li><a class="dropdown-item" href="./img4/photo4.html">nescafé</a></li>
+              <li><a class="dropdown-item" href="./img5/photo5.html">café poudre</a></li>
+              <li><a class="dropdown-item" href="./img6/photo6.html">Nos machines</a></li>
+            </ul>
 
-     <section class="container-fluid p-5" id="bg-image">
-        <div class="row container p-5 d-flex justify-content-end">
-            <div class="col-6 p-3 text-center">
-                <h1 class="text-warning">BIENVENUE</h1>
-                <p class="text-light fs-4 d-flex justify-content-end">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Facilis ipsam cupiditate doloremque omnis facere illum dolor corporis, iusto, minima natus asperiores tenetur rerum quo qui.
-                </p>
-                <a href="#" class="btn btn-outline-warning fw-bold text-light ">voir plus</a>
-            </div>
-        </div>
-     </section>
-
-     <br>
-     <div class="container overflow-hidden" id="Service">
-        <div class="row">
-            <div class="col-4 text-center  text-dark shadow">
-                <img src="caffam.jpg"class="rounded img-fluid" height="500"width="600" alt="jpg">
-                 <h1>Sen café</h1>
-                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde explicabo sint ducimus fugiat vero. Exercitationem id vitae architecto vero dicta.</p>
-                  <button class="btn btn-outline-warning text-dark">par ici</button>
-          </div>
-
-          <div class="col-4 text-center  text-dark shadow">
-            <img src="caffam2.jpg"class="rounded img-fluid" height="500" width="600" alt="jpg">
-             <h1>Sen café</h1>
-             <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde explicabo sint ducimus fugiat vero. Exercitationem id vitae architecto vero dicta.</p>
-              <button class="btn btn-outline-warning text-dark">par ici</button>
-         </div> 
-
-         <div class="col-4 text-center  text-dark shadow">
-                <img src="cafam6.jpg"class="rounded img-fluid" height="500" width="600" alt="jpg">
-                 <h1>Sen café</h1>
-                 <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde explicabo sint ducimus fugiat vero. Exercitationem id vitae architecto vero dicta.</p>
-                  <button class="btn btn-outline-warning text-dark">par ici</button>
-                  <br><br><br>
-          </div>
-           
-          <div class="col-4 text-center  text-dark shadow">
-            <img src="coffee-beans-8286087_640.webp"class="rounded img-fluid" height="500" width="600" alt="jpg">
-             <h1>Sen café</h1>
-             <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde explicabo sint ducimus fugiat vero. Exercitationem id vitae architecto vero dicta.</p>
-              <button class="btn btn-outline-warning text-dark">par ici</button>
-         </div>
-
-      <div class="col-4 text-center  text-dark shadow">
-        <img src="café poudre.jpg"class="rounded img-fluid" height="500" width="600" alt="jpg">
-         <h1>Sen café</h1>
-         <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde explicabo sint ducimus fugiat vero. Exercitationem id vitae architecto vero dicta.</p>
-          <button class="btn btn-outline-warning text-dark">par ici</button>
-     </div>
-
-       <div class="col-4 text-center  text-dark shadow">
-         <img src="cafam4.jpg"class="rounded img-fluid" height="500" width="600" alt="jpg">
-          <h1>Sen café</h1>
-          <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde explicabo sint ducimus fugiat vero. Exercitationem id vitae architecto vero dicta.</p>
-           <button class="btn btn-outline-warning text-dark">par ici</button>
-        </div>
-            
-     </div>
- </div><br><br>
-<h1 class="text-center" id="A propos">PORTFOLIO</h1>
- <div class="container">
-    <div class="row">
-        <div class="col-6 p-3">
-        <img src="bilal leu.jpg" class="rounded-circle" width="500" height="520" alt="jpg">
-        </div>
-
-        <div class="col-6  p-3 ">
-            <p class="text-uppercase " style="margin-top: 162px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil facilis exercitationem id praesentium iure cupiditate distinctio.
-               Dolorum asperiores quibusdam voluptatem minima, officiis dolores nihil quod sequi saepe dolorem.
-               Perferendis voluptate ad mollitia ex eaque blanditiis distinctio dignissimos doloremque enim! Itaque accusantium voluptates quidem, iste quae accusamus.
-               Minus tempore cumque aperiam saepe, optio, accusamus autem perspiciatis ad possimus, dicta culpa voluptatum.
-            </p>
-         </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#A propos" style="color: white;">A-propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Contact" style="color: white;">Contact</a></li>
+        </ul>
+      </div>
     </div>
- </div>
+  </nav>
 
-<br><br>
-    <h1 class="text-center" id="Contact">Contact</h1>
-    <br><br>
+  <section class="container-fluid p-5" class="img-fluid" id="bg-image">
+    <div class="row container p-5 d-flex justify-content-end" style="margin-left: 150px;">
+      <div class="col-6 p-3  ">
+        <h1 class="text-warning">BIENVENUE</h1>
+        <p class="text-light fs-3 d-flex justify-content-end">
+          Bienvenue au SEN CAFÉ, où chaque tasse est une invitation au voyage. Nous sélectionnons avec soin des grains
+          de café provenant des meilleures plantations du monde entier. Torréfiés à la perfection, nos cafés révèlent
+          une richesse de saveurs, allant des arômes fruités et floraux aux notes plus chocolatées et épicées. Que vous
+          soyez amateur de café doux ou de boissons plus corsées, nous avons le café qui saura éveiller vos sens.
+        </p>
+        <a href="voir plus accueil.html" class=" btn btn-warning btn-ms text-light fw-bold  ">Bienfaits du café</a>
+      </div>
+    </div>
+  </section>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-4  p-1 text-dark text-center">
-                   <h3>Telephone</h3>
-                   <i class='bx bx-phone'></i>
-                   <p>221784177960</p>
-                </div>
+  <!--debut service-->
+  <br><br><br>
+  <div class="container " id="Service">
+    <div class="row">
+      <div class="col-4 text-center  text-dark custom-shadow-sm p-1 mb-5 ">
+        <img src="cafam6.jpg" class="rounded img-fluid" width="270" alt="jpg">
+        <h1>Sen café</h1>
+        <p class="h6 p-2">
+          Imaginez une tasse chaude entre vos mains , dont la chaleur réconfortante enveloppe vos doigts, tandis qu'un
+          arôme envoûtant s'élève, riche et profond, imprégnant l'air autour de vous. Ce parfum, légèrement torréfié et
+          presque sucré, semble vous inviter à plonger dans un moment de pure détente.
+        </p>
+        <a href=".//img1/photo1.html" class="btn btn-outline-warning fw-bold text-dark">Par ici</a>
+      </div>
 
-                <div class="col-4  p-1  text-dark text-center">
-                    <h3>Email</h3>
-                    <i class='bx bxs-message-dots bx-tada bx-rotate-180'></i>
-                    <p>cheikhkide2002@gmail.com</p>
-                 </div>
+      <div class="col-4 text-center  text-dark custom-shadow-sm p-1 mb-5">
+        <img src="caffam2.jpg" class="rounded img-fluid" width="270" alt="jpg">
+        <h1>Sen café</h1>
+        <p class="h6 p-2">Commencez votre déjeuner avec une tasse de café à la fois réconfortante et pleine de
+          caractère. Son parfum riche et accueillant, légèrement torréfié, se mêle subtilement aux arômes de votre
+          repas, que ce soit un croissant chaud, une tartine beurrée ou une salade fraîche. </p>
+        <a href="./img2/photo2.html" class="btn btn-outline-warning fw-bold text-dark">Par ici</a>
+      </div>
 
-                 <div class="col-4  p-1 text-dark">
-                    <h3>Adress</h3>
-                    <i class='bx bx-home-alt bx-flashing' style='color:#070707'></i>
-                    <p>Avenue blaisse diagne rue 15</p>
-                 </div>
-            </div>
+      <div class="col-4 text-center  text-dark custom-shadow-sm p-1 mb-5">
+        <img src="caffam.jpg" class="rounded img-fluid" width="270" alt="jpg">
+        <h1>Sen café</h1>
+        <p class="h6 p-2">Savourez un café crème onctueux, où l’intensité du café se mêle harmonieusement à la douceur
+          d’une mousse légère et crémeuseQue vous l’appréciez le matin pour bien démarrer la journée ou lors d’une pause
+          après le déjeuner, chaque tasse de café crème est un véritable plaisir sensuel.</p>
+        <a href="./img3/photo3.html" class="btn btn-outline-warning fw-bold text-dark">Par ici</a>
+      </div>
+
+      <div class="row ">
+        <div class="col-4 text-center  text-dark custom-shadow-sm p-1 mb-5 ">
+          <img src="nescafé.avif" class="rounded img-fluid" width="270" alt="jpg">
+          <h1>Sen café</h1>
+          <p class="h6 p-2">Un café instantané au goût authentique, riche et corsé, qui vous plonge instantanément dans
+            un univers de saveurs intenses. Il offre une expérience gustative profonde, avec une saveur robuste et un
+            arôme incomparable qui envahit vos sens dès la première gorgée.</p>
+          <a href=".//img4/photo4.html" class="btn btn-outline-warning text-dark fw-bold">Par ici</a>
         </div>
-        <h1 class="text-center">Contacter par formulaire</h1>
-        <br><br>
+
+        <div class="col-4 text-center  text-dark custom-shadow-sm p-1 mb-5">
+          <img src="pot jaune.jpg" class="rounded img-fluid" width="270" alt="jpg">
+          <h1>Sen café</h1>
+          <p class="h6 p-2">Découvrez notre sélection exclusive de café en poudre et en grains, minutieusement élaborée
+            pour satisfaire les palais les plus exigeants. Chaque grain, soigneusement torréfié, révèle une complexité
+            de saveurs qui éveille vos sens, notre gamme répond à toutes vos attentes.</p>
+          <a href=".//img5/photo5.html" class="btn btn-outline-warning text-dark  fw-bold">Par ici</a>
+        </div>
+
+        <div class="col-4 text-center  text-dark custom-shadow-sm p-1 mb-5">
+          <img src="machine.jpg" class="rounded img-fluid" width="270" alt="jpg">
+          <h1>Sen café</h1>
+          <p class="h6 p-2">
+            Découvrez notre machine à café électrique, spécialement conçue pour les amateurs de café qui recherchent à
+            la fois qualité, performance et simplicité. Grâce à sa technologie de pointe, elle garantit une extraction
+            parfaite à chaque utilisation, pour un café savoureux et riche en arômes.</p>
+          <a href="./img6/photo6.html" class="btn btn-outline-warning text-dark  fw-bold">Par ici</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--fin service-->
+
+  <!--debut a propos-->
+
+  <h1 class="text-center " id="A propos" style="font-family:fantasy; font-style: oblique; font-weight: bold; font-size: 65px;">
+    A-propos <span class="text-warning">de nous</span></h1>
+
+    <section class="home">
+      <div class="home_left"> 
+        <h1 class="title text-center">SEN <span class="text-warning">CAFÉ</span></h1>
+        <p>
+          Chez SEN CAFÉ, nous vivons et partageons une passion profonde pour le café artisanal d'exception. Chaque grain raconte une histoire, et notre mission est de vous offrir une expérience sensorielle qui célèbre l’art et la tradition du café. 
+          Que vous cherchiez à transformer votre routine matinale en un moment magique ou à partager une expérience café exceptionnelle avec vos proches, nous avons tout ce qu’il vous faut pour enrichir et sublimer votre quotidien.
+        </p>
         <div class="container">
           <div class="row">
-            <div class="col-4">
-              <input type="text" class="form-control" placeholder="Prenom et nom" aria-label="First name">
+            <div class="col text-center">
+              <a href="sen café.html" class="btn btn-outline-warning text-dark ms-3 fw-bold text-uppercase" >savoir plus</a>
             </div>
-            <div class="col-4">
-                
-                <input type="email" class="form-control" id="email" placeholder=" Votre email" name="email">
-              </div>
-            <div class="col-4">
-                <input type="text" class="form-control" placeholder="numero de telephone" aria-label="Numero de teleph">
-            </div>
-            <br><br><br>
-            <div class="form-floating">
-             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-             <label for="floatingTextarea2">Message</label>
-            </div>
+          </div>
         </div>
+        <br><br>
+        <a href="https://www.facebook.com/cheikh.kide"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="https://x.com/?lang=fr"><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+        <a href="https://web.whatsapp.com/"><i class='bx bxl-whatsapp'></i></a>
+        
+      </div>
+       <div class="home_right">
+        <img src="top a propos.jpg">
+       </div>
+    </section>
+
+
+  <!--debut formulaire-->
+  
+  <h1 class="text-center" style="margin-top: 90px;font-family: fantasy; font-style: oblique; font-weight:bold;font-size: 65px; background-color:;" id="Contact">CONTACTER PAR FORMULAIRE</h1>
+  <br><br>
+  <div class="container mb-3 ">
+    <div class="row">
+      <div class="col-6 mt-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10755.924568602719!2d-17.491569523874524!3d14.742532132930682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec11298540af771%3A0xb9e86dccda2edf0!2sHypermarche%20Exclusive%20Aeroport%20Yoff!5e1!3m2!1sfr!2ssn!4v1734270290766!5m2!1sfr!2ssn"
+          width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-6 shadow bg-gradient">
+        <form>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="prenom" class="form-label"></label>
+              <input type="text" class="form-control" id="prenom" placeholder="Prénom">
+            </div>
+            <div class="col">
+              <label for="nom" class="form-label"></label>
+              <input type="text" class="form-control" id="nom" placeholder="Nom">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="telephone" class="form-label"></label>
+            <input type="tel" class="form-control" id="telephone" placeholder="Entrez votre numéro de téléphone"
+              required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label"></label>
+            <input type="email" class="form-control" id="email" placeholder="Entrez votre email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label"></label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Votre message" required></textarea>
+          </div>
+
+
+          <button type="submit" class="btn btn-warning ">Envoyer</button>
+
+
+        </form>
+      </div>
     </div>
-    <br>
-    <button class="btn btn-outline-dark " style="margin-left: 110px;">Soumettre</button>
- </form>
-     
-<br><br>
- 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
- </html>
+  </div>
+
+  <!--pied de page debut-->
+  <div class="footer-dark   mt-5">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 item">
+            <h3> Nos Services</h3>
+            <ul>
+              <li><a href="./img1/photo1.html">café touba</a></li>
+              <li><a href="./img2/photo2.html">café au lait</a></li>
+              <li><a href="./img4/photo4.html">nescafé</a></li>
+              <li><a href="./img1/photo1.html">lipton</a></li>
+              <li><a href="./img4/photo4.html">thé "ataya"</a></li>
+              <li><a href="./img5/photo5.html">café grain</a></li>
+              <li><a href="./img5/photo5.html">café en poudre </a></li>
+              <li><a href="./img6/photo6.html">machine a café</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>HORAIRES</h3>
+           <p class=>Tous les jours: 5H-00H </p>
+           <p>Adress: Hupermarché exclusive <strong>Aéroport yoff.</strong> </p>
+           <p>infoline: <strong class="text-warning h5">(221)778325011</strong></p>
+          </div>
+          <div class="col-md-6 item text ">
+            <h3>SEN CAFÉ</h3>
+            <p>Plongez dans l'univers envoûtant du café avec SEN CAFÉ, votre source privilégiée pour tout ce qui concerne cette boisson emblématique. Que vous soyez un amateur passionné, un barista en herbe ou simplement à la recherche de votre tasse parfaite, nous avons tout   ce qu'il vous faut pour satisfaire vos envies.</p>
+          </div>
+          <div class="mt-5">
+            <h2>Numéro du livreur <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
+                viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve">
+                <style>
+                  .st0,
+                  .st1,
+                  .st11,
+                  .st15,
+                  .st17,
+                  .st3,
+                  .st9 {
+                    fill: #039be5;
+                    stroke: #0277bd;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-miterlimit: 10
+                  }
+
+                  .st1,
+                  .st11,
+                  .st15,
+                  .st17,
+                  .st3,
+                  .st9 {
+                    fill: #81d4fa
+                  }
+
+                  .st11,
+                  .st15,
+                  .st17,
+                  .st3,
+                  .st9 {
+                    fill: #ffa726
+                  }
+
+                  .st11,
+                  .st15,
+                  .st17,
+                  .st9 {
+                    fill: none;
+                    stroke: #f57c00
+                  }
+
+                  .st11,
+                  .st15,
+                  .st17 {
+                    fill: #eee;
+                    stroke: #0277bd
+                  }
+
+                  .st15,
+                  .st17 {
+                    fill: none;
+                    stroke: #29b6f6
+                  }
+
+                  .st17 {
+                    stroke: #0277bd
+                  }
+                </style>
+                <g id="Delivery_on_Bike">
+                  <path class="st1" d="m48.9 32-3.6-13.7h-3l3.9 15c.9-.6 1.8-1 2.7-1.3zM27.2 42.2h15.1v3H27.2z" />
+                  <circle class="st0" cx="53.3" cy="45.2" r="9" />
+                  <path class="st1"
+                    d="M42.3 45.2h-3c0-7.7 6.3-14 14-14 3.4 0 6.6 1.2 9.1 3.4.4.4.5 1.1.1 1.5l-.7.7c-.4.4-.9.4-1.3.1-2-1.7-4.5-2.6-7.1-2.6-6.1-.1-11.1 4.9-11.1 10.9z" />
+                  <circle class="st11" cx="53.3" cy="45.2" r="4" />
+                  <circle class="st0" cx="14.2" cy="45.2" r="9" />
+                  <path class="st17"
+                    d="M58.3 50.2c-1.3 1.3-3.1 2.1-4.9 2.1s-3.6-.7-4.9-2.1M19.2 50.2c-1.3 1.3-3.1 2.1-4.9 2.1s-3.6-.7-4.9-2.1" />
+                  <path class="st15" d="M48.4 40.3c1.3-1.3 3.1-2.1 4.9-2.1s3.6.7 4.9 2.1" />
+                  <circle class="st11" cx="14.2" cy="45.2" r="4" />
+                  <path class="st1" d="M27.2 45.2h-25c-.6 0-1-.4-1-1v-3.5c0-5.5 4.5-10 10-10h16v14.5z" />
+                  <path d="M3.2 40.8c0-4.4 3.6-8 8-8h14"
+                    style="fill:none;stroke:#e1f5fe;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+                  <path class="st1" d="M23.2 45.2h-18v-2.5c0-2.8 2.2-5 5-5h8c2.8 0 5 2.2 5 5v2.5z" />
+                  <path class="st11"
+                    d="M26.2 24.8h-18c-1.7 0-3 1.3-3 3v0c0 1.7 1.3 3 3 3h18c1.7 0 3-1.3 3-3v0c0-1.7-1.3-3-3-3z" />
+                  <path class="st3"
+                    d="M19.2 24.8h-13c-.6 0-1-.4-1-1v-13c0-.6.4-1 1-1h13c.6 0 1 .4 1 1v13c0 .5-.4 1-1 1z" />
+                  <path class="st3" d="m5.5 10.1 3.7 4.7h7l3.7-4.7c-.2-.2-.4-.3-.7-.3h-13c-.3 0-.5.1-.7.3z" />
+                  <path class="st9" d="M7.2 22.8h11" />
+                  <path class="st3"
+                    d="M19.2 24.8h-13c-.6 0-1-.4-1-1v-13c0-.6.4-1 1-1h13c.6 0 1 .4 1 1v13c0 .5-.4 1-1 1z" />
+                  <path class="st3" d="m5.5 10.1 3.7 4.7h7l3.7-4.7c-.2-.2-.4-.3-.7-.3h-13c-.3 0-.5.1-.7.3z" />
+                  <path class="st9" d="M7.2 22.8h11" />
+                  <path class="st0" d="M44.6 15.2h-7c-.6 0-1 .4-1 1v1c0 .6.4 1 1 1h7c.6 0 1-.4 1-1v-1c0-.5-.4-1-1-1z" />
+                  <path class="st15" d="M7.2 43.2h14" />
+                  <path style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+                    d="M8.2 26.8h18" />
+                  <path class="st3" d="M50.9 28.5h-1c-.6 0-1-.4-1-1v-6c0-.6.4-1 1-1h1c.6 0 1 .4 1 1v6c0 .5-.5 1-1 1z" />
+                  <path class="st1" d="m46.5 23 .8 3h1.6v-3z" />
+                </g>
+              </svg></h2>
+            <h4 class="mt-1" style="margin-left: 40px;">783705769</h4>
+          </div>
+          <div class="col item social">
+            <a href="https://www.facebook.com/cheikh.kide"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://x.com/?lang=fr"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://web.whatsapp.com/"><i class='bx bxl-whatsapp'></i></a>
+          </div>
+        </div>
+        <p class="copyright text-light"> SEN<span class="text-warning">CAFÉ</span> tout droit réservé @!</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
